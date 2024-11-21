@@ -1,0 +1,7 @@
+<div class="leave-exceptions">
+    <h3>Leave Balance</h3>
+    <div *ngFor="let leave of leaveTypes">
+      <p>{{ leave.type }}: {{ leave.used }}/{{ leave.total }} used</p>
+    </div>
+  </div>
+  
